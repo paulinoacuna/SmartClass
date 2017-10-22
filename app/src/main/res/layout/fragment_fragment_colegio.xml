@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorbackgrounda"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.FragmentColegio">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:src="@mipmap/ic_eldefinitivocsbt"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Colegio San Benito De Tibati"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:text="Monjes Benedictinos"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:id="@+id/direccionaweb"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="100dp"
+        android:background="@color/colorPrimary"
+        android:text="Ir al sitio web"
+        android:layout_height="0dp" />
+
+
+
+
+</LinearLayout>

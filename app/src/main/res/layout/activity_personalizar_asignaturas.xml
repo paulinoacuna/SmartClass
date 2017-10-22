@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackgrounda"
+    android:layout_height="match_parent"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.PersonalizarAsignaturas">
+
+      <LinearLayout
+        android:orientation="horizontal"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_marginLeft="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_menu_asignaturas"
+            android:layout_width="0dp"
+            android:layout_weight="1.4" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_marginRight="95dp"
+            android:paddingBottom="15dp"
+            android:src="@drawable/ic_menu_manage"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/imageView" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_width="match_parent">
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="Ajusta tus Asignaturas"
+            android:textSize="28sp"
+            />
+
+        <Button
+            android:id="@+id/btn_direcciona_registro_asignaturas"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginBottom="60dp"
+            android:text="Agregar"
+            android:layout_weight="1"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/btn_direcciona_eliminar"
+            android:layout_width="match_parent"
+            android:background="#b61313"
+            android:layout_marginBottom="60dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="Eliminar"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

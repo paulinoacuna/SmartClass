@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorbackgrounda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            card_view:cardElevation="8dp"
+            android:layout_marginRight="7dp"
+            card_view:cardBackgroundColor="#FFE4C5A2"
+            android:layout_marginTop="7dp"
+            android:layout_marginLeft="7dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:tint="@color/colorAccent"
+                    android:src="@drawable/ic_menu_asignaturas"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/Asignaturalistaasignaturasitem"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Asignatura"
+                    android:layout_marginRight="30dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="1dp"
+                    android:textStyle="normal" />
+
+
+                <TextView
+                    android:id="@+id/abreviaturalistaasignaturasitem"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10sp"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Abreviatura"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/maestroitemlista"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Gloria Gallo"
+                    android:textSize="11sp"
+                    android:layout_marginBottom="12dp"
+                    android:textStyle="normal" />
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

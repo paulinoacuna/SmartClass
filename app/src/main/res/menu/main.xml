@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item android:title="Eliminar:">
+            <menu>
+                <item
+                    android:id="@+id/action_settings_eliminar_tareasdos"
+                    android:orderInCategory="100"
+                    android:title="Tareas"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_settings_eliminar_asignturasdos"
+                    android:orderInCategory="100"
+                    android:title="Asignaturas"
+                    app:showAsAction="never" />
+                <item
+                    android:id="@+id/action_settings_eliminar_anotacionesdos"
+                    android:orderInCategory="100"
+                    android:title="Anotaciones"
+                    app:showAsAction="never" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>

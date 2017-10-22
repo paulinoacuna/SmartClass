@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorbackgrounda"
+    android:orientation="vertical"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.RegistroAnotaciones">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+    <ImageView
+        android:id="@+id/registro_asignaturafdfs_imagen"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_weight="0.4"
+        android:paddingTop="5dp"
+        android:layout_marginTop="40sp"
+        android:src="@drawable/ic_asignaturas_registro_imagen"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:id="@+id/Agrega_Tu_Asignatura"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.25"
+        android:layout_marginTop="10sp"
+        android:layout_height="0dp"
+        android:text="Agrega Tus Anotaciones" />
+
+    <TextView
+        android:id="@+id/nombre_asignatura"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_weight="0.1"
+        android:textSize="@dimen/subtitulos_predeterminados"
+        android:layout_height="0dp"
+        android:text="Nombre:" />
+    <EditText
+        android:id="@+id/camponombrenota"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:hint="Ej: Examenes Acumulativos"
+        android:layout_marginBottom="28dp"
+        android:text="" />
+    <TextView
+        android:id="@+id/Abrev_asignatura"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_width="match_parent"
+        android:layout_weight="0.1"
+        android:textSize="@dimen/subtitulos_predeterminados"
+        android:layout_height="0dp"
+        android:text="Descripción:" />
+
+    <EditText
+        android:id="@+id/campodescripnota"
+        android:layout_width="wrap_content"
+        android:layout_weight="0.4"
+        android:layout_height="0dp"
+        android:hint="Ej: ¡Que vaina!, los examenes comienzan en dos semanas, debo prepararme..."
+        android:text="" />
+    <Button
+        android:id="@+id/guardar_datos_anotacion"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        android:layout_weight="0.3"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Guardar" />
+
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:layout_width="match_parent"
+            android:id="@+id/fabmenup"
+            app:menu_colorNormal="@color/colorPrimary"
+            app:menu_colorPressed="@color/colorPrimaryDark"
+            app:menu_colorRipple="@color/colorAccent"
+            android:layout_height="match_parent"
+            app:menu_fab_label="Nueva"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/fab_margin">
+
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/despliegaperzanotaciones"
+                android:layout_width="match_parent"
+                android:onClick="clicksubanotaciones"
+                android:layout_height="match_parent"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="@color/colorPrimaryDark"
+                app:fab_label="Anotación"
+                android:src="@drawable/ic_subotro"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/despliegaperzasignaturas"
+                android:onClick="clicksubasignaturas"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="@color/colorPrimaryDark"
+                app:fab_label="Asignatura"
+                android:src="@drawable/ic_submenuasig"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/despliegaregistrotareas"
+                android:onClick="clicksubtareas"
+                android:layout_width="match_parent"
+                app:fab_colorNormal="@color/colorAccent"
+                app:fab_colorPressed="@color/colorPrimaryDark"
+                android:layout_height="match_parent"
+                app:fab_label="Tarea"
+                android:src="@drawable/ic_submenutareas"/>
+
+
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+
+    </RelativeLayout>
+
+</android.support.design.widget.CoordinatorLayout>

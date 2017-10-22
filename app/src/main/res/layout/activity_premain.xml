@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/colorbackgrounda"
+    android:layout_height="match_parent"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.Premain">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="@string/title_bienvenido"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="@dimen/tiulos_predeterminados"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:textAlignment="center"
+        android:layout_marginTop="0dp"
+        android:layout_weight="1"
+        android:paddingTop="15dp"
+        android:text="@string/title_buen_estudiante"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:textSize="@dimen/subtitulos_predeterminados"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/mainfondo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="29dp"
+        android:layout_weight="4"
+        app:srcCompat="@drawable/fondo_2" />
+
+    <Button
+        android:id="@+id/entrar_interfaz"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_weight="1"
+        android:onClick="btn_cambiarimagen_click"
+        android:background="#e9862a"
+        android:text="@string/title_entrar"
+        android:gravity="center"
+        android:visibility="visible" />
+
+</LinearLayout>

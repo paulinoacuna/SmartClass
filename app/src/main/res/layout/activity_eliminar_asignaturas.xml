@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorbackgrounda"
+    android:layout_height="match_parent"
+    tools:context="com.colombianapps.paulino.proyectosmartclass.EliminarAsignaturas">
+
+
+
+
+            <ImageView
+             android:id="@+id/ic_eliminar_image"
+             android:layout_height="0dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+             android:paddingBottom="10dp"
+             android:layout_weight="2"
+             android:src="@drawable/ic_eliminar_asig" />
+                <TextView
+                    android:id="@+id/poner_nombrfre"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Seleccione la Asignatura a eliminar"
+                    android:layout_width="match_parent"
+                    android:textSize="@dimen/subtitulos_predeterminados"
+                    android:layout_height="0dp"
+                    />
+
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/comboeliminarasig"
+                android:layout_height="0dp">
+
+
+            </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/sale_asignatura_eliminar"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="20dp"
+            android:text="Asignatura:"
+            android:layout_marginRight="20dp"
+            android:layout_height="0dp"
+            />
+
+    <TextView
+        android:id="@+id/sale_nickname_eliminar"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:text="Abreviatura:"
+        android:layout_marginRight="20dp"
+        android:layout_height="0dp"
+        />
+
+    <TextView
+        android:id="@+id/sale_maestro_eliminar"
+        android:layout_weight="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:text="Maestro:"
+        android:layout_marginRight="20dp"
+        android:layout_height="0dp"
+        />
+
+
+        <Button
+            android:id="@+id/btn_eliminarasig"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="50dp"
+            android:onClick="onClick"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:layout_height="0dp"
+            android:text="Eliminar" />
+
+</LinearLayout>

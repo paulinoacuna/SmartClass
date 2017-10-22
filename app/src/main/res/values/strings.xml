@@ -1,0 +1,25 @@
+<resources>
+
+    <string name="app_name">SmartClass</string>
+
+    <string name="title_activity_main_nav"></string>
+    <string name="title_bienvenido">Hola!</string>
+    <string name="title_entrar">Entrar</string>
+    <string name="btn_cambiarimagen_click">btn_cambiarimagen_click</string>
+    <string name="title_buen_estudiante">Nos agrada tenerte de vuelta</string>
+    <string name="title_experiencia">organiza tu tiempo de la mejor manera</string>
+
+
+    <string name="action_settings_asignas">Asignaturas</string>
+    <string name="action_settings_horario">Horario de clases</string>
+    <string name="action_settings_anotar">Anotaciones</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

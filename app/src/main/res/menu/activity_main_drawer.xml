@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item android:title="SmartClass">
+            <menu>
+                <item
+                    android:id="@+id/nav_tareas"
+                    android:icon="@drawable/ic_menu_atareas"
+                    android:title="Tareas" />
+
+                <item
+                    android:id="@+id/nav_asignaturas"
+                    android:icon="@drawable/ic_menu_asignaturas"
+                    android:title="Asignaturas" />
+
+                <item
+                    android:id="@+id/nav_anotaciones"
+                    android:icon="@drawable/ic_menu_anotaciones"
+                    android:title="Anotaciones" />
+                <item
+                    android:id="@+id/nav_horario_de_clases"
+                    android:icon="@drawable/ic_vistarapida"
+                    android:title="Vista rápida" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Más">
+        <menu>
+            <item
+                android:id="@+id/nav_acerca_del_desarrollador"
+                android:icon="@drawable/ic_menu_acerca_del_desarrollador"
+                android:title="Acerca del desarrollador" />
+            <item
+                android:id="@+id/nav_colegio_sanbenito_de_tibatí"
+                android:icon="@drawable/ic_colegiosanbenito"
+
+                android:title="Colegio San Benito De Tibatí" />
+        </menu>
+    </item>
+
+</menu>

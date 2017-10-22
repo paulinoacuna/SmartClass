@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorbackgrounda">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_marginLeft="7dp"
+            card_view:cardElevation="8dp"
+            card_view:contentPaddingLeft="3dp"
+            android:layout_marginRight="7dp"
+            card_view:cardBackgroundColor="#FFE4C9A2"
+            android:layout_marginTop="7dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:tint="@color/colorAccent"
+                            android:src="@drawable/ic_menu_atareas"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:id="@+id/Nicknamelistatareasitem"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Nickname"
+                            android:textSize="20sp"
+                            android:layout_marginBottom="5dp"
+                            android:textStyle="bold" />
+
+
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/tittulo"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="11sp"
+                        android:layout_height="wrap_content"
+                        android:text="Para entegar el:"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/fechaentregalistatareasitem"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textStyle="italic"
+                        android:textSize="24sp"
+                        android:text="12/45/17"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginRight="10dp"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/descripcionlistatareasitem"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="descripcion"
+                        android:textSize="14sp"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tittutlo"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_height="wrap_content"
+                        android:text="Lo haré este día:"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/fecharealizacionitemtareaslista"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="14/45/17"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/tigtgulo"
+                        android:layout_marginTop="1dp"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="1sp"
+                        android:layout_height="wrap_content"
+                        android:text="Lo haré a esta hora:"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:id="@+id/horarealizacionitemtareaslista"
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="03:10 pm"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
